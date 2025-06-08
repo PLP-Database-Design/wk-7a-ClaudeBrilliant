@@ -11,5 +11,18 @@ CROSS APPLY
 
 
 quiz 2
+    
+ Orders Table:
+SELECT DISTINCT
+    OrderID,
+    CustomerName
+FROM 
+    OrderDetails;
 
-
+️⃣ OrderItems Table:
+SELECT
+    OrderID,
+    Product,
+    Quantity
+FROM 
+    OrderDetails;
